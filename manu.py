@@ -26,7 +26,7 @@ else :
 		elif cmd==2 :
 			print(subprocess.getoutput("sudo cal"))
 		elif cmd==3 :
-			print("lvm")
+			os.system("sudo python3 lvm.py")
 		elif cmd==4 :
 			os.system("sudo python3 docker.py")
 		elif cmd==5 :
