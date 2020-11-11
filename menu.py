@@ -12,12 +12,13 @@ else :
 	while True:
 		os.system("tput setaf 4")
 		print(""" My manu
-1.date 
-2.cal
-3.lvm
-4.docker
-5.hadoop
-6.exit
+1.Date 
+2.Cal
+3.Lvm
+4.Docker
+5.Hadoop
+6.AWS
+7.Exit
 		""")
 		os.system("tput setaf 7")
 		cmd = int(input("Enter your choice \t"))
@@ -32,6 +33,8 @@ else :
 		elif cmd==5 :
 			print("hadoop")
 		elif cmd ==6:
+			os.system("python3 aws.py")
+		elif cmd==7:
 			exit()
 		else :
 			print("Not found")
