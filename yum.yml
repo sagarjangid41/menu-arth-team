@@ -28,3 +28,8 @@
   - copy: 
       dest: "/var/www/html/index.html"
       content:  "Hello"
+  - firewalld:
+      port: "80/tcp"
+      state: enabled
+      immediate: yes
+      permanent: yes
