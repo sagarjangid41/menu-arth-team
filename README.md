@@ -11,6 +11,7 @@
   1.Docker
   2.Linux Partition and LVM
   3.Hadoop
-  4.Apache Web server</h3>
+  4.Apache Web server
+  5.Yum Configration by ansible</h3>
 <b>Thank you 😄</b>
 *not yet completed 
