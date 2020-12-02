@@ -16,5 +16,5 @@
   - yum_repository: 
      name: "dvd2"
      baseurl: "/dvd2/AppStream"
-     gpgcheck: yes
+     gpgcheck: no
      description: "Appstream"
