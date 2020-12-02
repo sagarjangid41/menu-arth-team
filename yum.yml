@@ -13,3 +13,8 @@
       baseurl: "/dvd2/BaseOS"
       gpgcheck: no
       description: "base os"
+  - yum_repository: 
+     name: "dvd2"
+     baseurl: "/dvd2/AppStream"
+     gpgcheck: yes
+     description: "Appstream"
