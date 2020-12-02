@@ -11,5 +11,5 @@
   - yum_repository: 
       name: "dvd1"
       baseurl: "/dvd2/BaseOS"
-      gpgcheck: yes
+      gpgcheck: no
       description: "base os"
