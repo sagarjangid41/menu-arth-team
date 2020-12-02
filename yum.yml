@@ -25,3 +25,6 @@
       name: "httpd"
       state: "started"
       enabled: yes
+  - copy: 
+      dest: "/var/www/html/index.html"
+      content:  "Hello"
