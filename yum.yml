@@ -8,3 +8,8 @@
       src: "/dev/cdrom"
       fstype: "iso9660"
       state: mounted
+  - yum_repository: 
+      name: "dvd1"
+      baseurl: "/dvd2/BaseOS"
+      gpgcheck: yes
+      description: "base os"
