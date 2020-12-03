@@ -21,5 +21,7 @@
     package:
       name: "python36"
       state: present      
-      
+  - name: "pip install passlib"
+    pip:
+      name: "passlib"      
       
