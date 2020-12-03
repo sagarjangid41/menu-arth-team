@@ -4,7 +4,10 @@
     package:
       name: "httpd"
       state: present
-
+  - name: "Copy Containt "
+    copy:
+      dest: "/var/www/html/auth.html"
+      content: "helllo"
       
       
       
