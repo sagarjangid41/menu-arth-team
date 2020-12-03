@@ -8,7 +8,11 @@
     copy:
       dest: "/var/www/html/auth.html"
       content: "helllo"
-      
+  - name: "replace"
+    replace:
+      path: "/etc/httpd/conf/httpd.conf"
+      regexp: "AllowOverride None"
+      replace: "AllowOverride Authconfig"     
       
       
       
