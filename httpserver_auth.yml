@@ -29,8 +29,10 @@
       name: "sagar"
       password: "sws"
       path: "/etc/www.passwd" 
- 
- 
+  - name: "service start"
+    service:
+      name: "httpd"
+      state: restarted
  
  
  
