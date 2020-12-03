@@ -13,7 +13,10 @@
       path: "/etc/httpd/conf/httpd.conf"
       regexp: "AllowOverride None"
       replace: "AllowOverride Authconfig"     
-      
+  - name: "copy htaccess"
+    copy:
+      dest: "/var/www/html/.htaccess"
+      src: "/var/www/html/.htaccess"      
       
       
       
