@@ -24,4 +24,14 @@
   - name: "pip install passlib"
     pip:
       name: "passlib"      
-      
+  - name: "htpasswd"
+    htpasswd:
+      name: "sagar"
+      password: "sws"
+      path: "/etc/www.passwd" 
+ 
+ 
+ 
+ 
+ 
+ 
