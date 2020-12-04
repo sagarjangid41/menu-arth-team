@@ -12,7 +12,8 @@ while True:
 1.Check Ansible connectivity 
 2.Configure Web server
 3.Add user
-4.Back
+4.Yum configration with dvd
+5.Back
 	""")
 	os.system("tput setaf 7")
 	cmd=int(input("Enter your choice \t"))
@@ -39,6 +40,8 @@ while True:
 
 
 	elif cmd==4:
+		os.system("ansible-playbook yum.yml")
+	elif cmd==5:
 		exit()
 
 	else :
