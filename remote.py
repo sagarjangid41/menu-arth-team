@@ -11,9 +11,10 @@ while True:
 	print("""
 1.Check Ansible connectivity 
 2.Configure Web server
-3.Add user
-4.Yum configration with dvd
-5.Back
+3.Httpd authentication
+4.Add user
+5.Yum configration with dvd
+6.Back
 	""")
 	os.system("tput setaf 7")
 	cmd=int(input("Enter your choice \t"))
