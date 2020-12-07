@@ -24,6 +24,8 @@ while True:
 		print(subprocess.getoutput('ansible all -m package -a "name=httpd state=present "'))
 		print(subprocess.getoutput('ansible all -m service -a "name=httpd state=started" '))
 	elif cmd==3:
+		subprocess.getoutput('ansible-playbook httpserver_auth.yml')
+	elif cmd==4:
 		
 		ip=input("Enter remote ip\t")
 		user=input("Enter user name\t")
@@ -40,9 +42,9 @@ while True:
 			print("Invaild IP")
 
 
-	elif cmd==4:
-		os.system("ansible-playbook yum.yml")
 	elif cmd==5:
+		os.system("ansible-playbook yum.yml")
+	elif cmd==6:
 		exit()
 
 	else :
