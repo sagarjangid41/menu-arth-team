@@ -4,3 +4,5 @@ install haproxy software
 step2: 
 configure haproxy 
 /etc/haproxy/haproxy.cfg
+ 1.set LB port 
+ 2.backend ips
