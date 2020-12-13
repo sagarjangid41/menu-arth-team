@@ -6,3 +6,6 @@ configure haproxy
 /etc/haproxy/haproxy.cfg
  1.set LB port 
  2.backend ips
+
+step3:
+start service 
