@@ -2,3 +2,5 @@ step 1:
 install haproxy software 
  
 step2: 
+configure haproxy 
+/etc/haproxy/haproxy.cfg
