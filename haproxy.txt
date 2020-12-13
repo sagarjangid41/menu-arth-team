@@ -1,2 +1,4 @@
 step 1:
 install haproxy software 
+ 
+step2: 
