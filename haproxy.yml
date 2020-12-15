@@ -12,11 +12,7 @@
     service: 
       name: "haproxy"
       state: started
-  - name: "firewall for haproxy"
-    ansible.posix.firewalld:
-      service: "haproxy"
-      permanent: yes
-      state: enabled
+
       
       
   
