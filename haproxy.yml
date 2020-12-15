@@ -1,0 +1,22 @@
+- hosts: all
+  tasks:
+  - name: "install Haproxy"
+    package: 
+      name: "haproxy"
+      state: present
+  - name: "configer file"
+    copy:
+      src: "/root/ansible/haproxy.cfg"
+      dest: "/etc/haproxy/"
+  - name: "start service"
+    service: 
+      name: "haproxy"
+      state: started
+  - name: "firewall for haproxy"
+    ansible.posix.firewalld:
+      service: "haproxy"
+      permanent: yes
+      state: enabled
+      
+      
+  
