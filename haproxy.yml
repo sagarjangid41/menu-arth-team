@@ -1,9 +1,6 @@
 - hosts: all
   tasks:
-  - name: "install Haproxy"
-    package: 
-      name: "haproxy"
-      state: present
+
   - name: "configer file"
     copy:
       src: "/root/ansible/haproxy.cfg"
