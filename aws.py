@@ -6,6 +6,8 @@ os.system("tput setaf 7")
 while True:
 	os.system("tput setaf 4")
 	print("""
+	
+	
     1. Create Key Pair
     2. Create Security Groups
     3. Launch Instance
