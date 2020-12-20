@@ -15,7 +15,9 @@ while True:
     5. Attach EBS Volume to Instance
     6. Cloud Front setup
     7.Create S3 bucket
-	8.Back
+    8.Back
+	
+	
 	""")
 	os.system("tput setaf 7")
 	cmd=int(input("Enter your choice \t"))
