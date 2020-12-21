@@ -17,7 +17,7 @@ else :
 			  3.Lvm
 			  4.Docker
 			  5.Hadoop
-6.AWS
+			  6.AWS
 7.Exit
 		""")
 		os.system("tput setaf 7")
