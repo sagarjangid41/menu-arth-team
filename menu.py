@@ -12,7 +12,7 @@ else :
 	while True:
 		os.system("tput setaf 4")
 		print(""" My manu
-1.Date 
+			  1.Date 
 2.Cal
 3.Lvm
 4.Docker
