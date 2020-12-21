@@ -16,7 +16,7 @@ else :
 			  2.Cal
 			  3.Lvm
 			  4.Docker
-5.Hadoop
+			  5.Hadoop
 6.AWS
 7.Exit
 		""")
