@@ -14,7 +14,7 @@ else :
 		print(""" My manu
 			  1.Date 
 			  2.Cal
-3.Lvm
+			  3.Lvm
 4.Docker
 5.Hadoop
 6.AWS
