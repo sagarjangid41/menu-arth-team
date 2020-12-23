@@ -6,7 +6,7 @@ os.system("tput setaf 7")
 while True:
 	os.system("tput setaf 4")
 	print("""
-1.Full configure LVM
+	1.Full configure LVM
 2.create PV
 3.PV display
 4.create VG
