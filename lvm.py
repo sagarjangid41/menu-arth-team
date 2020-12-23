@@ -8,7 +8,7 @@ while True:
 	print("""
 	1.Full configure LVM
 	2.create PV
-3.PV display
+	3.PV display
 4.create VG
 5.VG display
 6.create LV
