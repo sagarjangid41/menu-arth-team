@@ -4,4 +4,6 @@
     aws_access_key: ##########
     aws_secret_key: ##########
     image: ami-04b1ddd35fd71475a
+    instance_type: t2.micro
+    vpc_subnet_id: subnet-52aeea1e
     
