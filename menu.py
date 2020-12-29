@@ -37,7 +37,7 @@ else :
 		elif cmd==7:
 			exit()
 		else :
-			print("Not found")
+			print("Not found ")
 		input()
 		os.system("sudo clear")
 		os.system("tput setaf 3")
