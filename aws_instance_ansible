@@ -8,4 +8,4 @@
     vpc_subnet_id: subnet-52aeea1e
     group_id: sg-0cda175e0aafffb20
     key_name: myawskey
-    
+    state: present
