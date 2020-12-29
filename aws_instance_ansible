@@ -1,2 +1,5 @@
 - host: 127.0.0.1
   task: ec2
+    region: ap-south-1
+    aws_access_key: ##########
+    
